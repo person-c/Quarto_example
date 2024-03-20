@@ -7,7 +7,8 @@ format:
         \usepackage{ctex}
         \usepackage{amsthm,mathrsfs}
     CJKmainfont: KaiTi
-  docx: default
+  docx:
+    reference-doc: template/custom-reference-doc.docx
   html: default
 link-citations: true
 lang: zh
@@ -71,6 +72,8 @@ quarto install
 ```
 
 从[这里](https://www.zotero.org/styles)下载csl文件。
+
+word的模板并不是普通的word，你必须从Pandoc生成该模板，然后再修改。
 
 # 参考文献
 
