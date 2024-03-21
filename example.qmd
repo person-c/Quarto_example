@@ -1,15 +1,18 @@
 ---
 title: "Quarto example"
+subtitle: "quarto example -------"
+author: "cw"
+date: '2024-03-20'
 format:
   pdf:
     include-in-header: 
       text: |
         \usepackage{ctex}
         \usepackage{amsthm,mathrsfs}
-    CJKmainfont: KaiTi
   docx:
     reference-doc: template/custom-reference-doc.docx
   html: default
+number-sections: true
 link-citations: true
 lang: zh
 table-of-contents: true
