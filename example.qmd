@@ -17,6 +17,9 @@ format:
         } {
             \endorigfigure
         }
+    include-before-body:
+      text: |
+        \captionsetup{justification=raggedright,singlelinecheck=false}
   docx:
     reference-doc: template/custom-reference-doc.docx
     fig-align: center
